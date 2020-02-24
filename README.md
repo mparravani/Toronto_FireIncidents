@@ -28,8 +28,8 @@ Install using the code below
 
 The following data was used for this project;  
 [Fire Incidents dataset](https://open.toronto.ca/dataset/fire-incidents/)  
-[Neighborhood Shapefule](https://open.toronto.ca/dataset/neighbourhoods/)  
-[Toronto Firestation Addresses](https://www.toronto.ca/community-people/public-safety-alerts/understanding-emergency-services/fire-station-locations/)  
+[Neighborhood Shapefile](https://open.toronto.ca/dataset/neighbourhoods/)  
+[Toronto Firestations](https://open.toronto.ca/dataset/fire-station-locations/)  
 
 ## Running the Code  
 

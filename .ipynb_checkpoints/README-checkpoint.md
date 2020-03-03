@@ -2,10 +2,9 @@
 
 Analysis of Toronto Fire Incidents data for the purposes of writing a blog post (Udacity Data Scientist Nanodegree Project). The intention was to leverage this project for something that could provide some positive benefit to the city. This analysis looks to answer the following questions;  
 
-1 - What is the distribution of fires through-out the city?  
-2 - What is the average response time for fires through-out the city?  
-3 - Is there correlation between neighborhood median income and fire occurances?  
-4 - What are the most important factors affecting the estimated dollar loss of fires?  
+1. Is there a large variability in response time by the different stations?  
+2. Is the geo-spatial distribution of fire stations appropriate to all the locations? 
+3. What's the most important feature to predict response time?
  
 From the above, the data can be used to potentially assist in planning future stations (or funding of current ones), as well as a change in approach. 
 
@@ -17,11 +16,11 @@ The analysis was completed using Jupyter Notebook and Python 3.7.3, which can be
 ### Prerequisites 
 
 The following packages are required;   
-numpy, sklearn, matplotlib, seaborn, pandas, missingno, geopandas  
+numpy, sklearn, matplotlib, seaborn, pandas, missingno, geopandas, scipy, sklearn, shapely 
  
 Install using the code below  
 ```
-!pip install numpy sklearn matplotlib seaborn pandas missingno geopandas
+!pip install numpy sklearn matplotlib seaborn pandas missingno geopandas, scipy, sklearn, shapely
 ```
 
 ## Data References 
@@ -31,26 +30,15 @@ The following data was used for this project;
 [Neighborhood Shapefile](https://open.toronto.ca/dataset/neighbourhoods/)  
 [Toronto Firestations](https://open.toronto.ca/dataset/fire-station-locations/)  
 
-## Running the Code  
+## Instructions to Run Code
 
-Explain how to run the automated tests for this system  
-
-
-```
-Give an example
-```
+Code is set up in EDA to modeling workflow - and should be run sequentially. There are no secondary scripts referenced.
 
 
 ## Authors  
-* **Michael Parravani** - [Github](https://github.com/mparravani) [LinkedIn](https://www.linkedin.com/in/michael-parravani/)  
+* **Michael Parravani** - [Github](https://github.com/mparravani) - [LinkedIn](https://www.linkedin.com/in/michael-parravani/)  
 
 ## License  
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details  
- 
-## Acknowledgments  
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License
 

@@ -3,7 +3,7 @@
 Analysis of Toronto Fire Incidents data for the purposes of writing a blog post (Udacity Data Scientist Nanodegree Project). The intention was to leverage this project for something that could provide some positive benefit to the city. This analysis looks to answer the following questions;  
 
 1. Is there a large variability in response time by the different stations?  
-2. Is the geo-spatial distribution of fire stations appropriate to all the locations? 
+2. Is the geo-spatial distribution of fire stations appropriate? 
 3. What's the most important feature to predict response time?
  
 From the above, the data can be used to potentially assist in planning future stations (or funding of current ones), as well as a change in approach. 
